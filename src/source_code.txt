@@ -1,0 +1,36 @@
+## 
+
+
+This is a multi-line comment
+
+
+
+##
+## 
+
+
+It should be ignored by the lexical analyzer ##
+
+$$ This is a single-line comment
+
+flag :global = hn ;
+whole :count = 10 ;
+point :pi = 3.14159 ;
+letter :alpha = 'a' ;   $$ This is a single-line comment
+
+whole value1 = 5 ;
+whole value2 = 2 ;
+point result = 2 ;
+
+result = value1 + value2 ; 
+result = value1 - value2 ; 
+result = value1 * value2 ; 
+result = value1 / value2 ; 
+result = value1 % value2 ;  
+result = value1 ^ value2 ;  
+
+output<<HelloHi! ;
+
+point exponentResult = 2.5 ^ 3.0 ;
+
+:global = na ;
